@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #165887;
+            --secondary-color: #4fa1d3;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f8f9fb;
+            --radius: 10px;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--primary-color);
+        }
+
+        .all_cpd_forms{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .all_cpd_forms a{
+            margin-bottom: 20px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background-color: var(--secondary-color);
+            color: #fff;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 2px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="all_cpd_forms">
+        <a target="_blank" href="./contact_form_confirm.html">Contact form success message</a>
+
+        <a target="_blank" href="./trainger_registration_confirm.html">Trainner Registration form success message</a>
+    </div>
+
+</body>
+</html>
